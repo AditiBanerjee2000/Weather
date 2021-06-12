@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Weather App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="weather.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Suez+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
+    </head>
+    <body>
+       <h3 id="sunrise">Sunrise: <span id="sunR">null</span></h3>
+       <h3 id="sunset">Sunset: <span id="sunS">null</span></h3>
+        <div class="container">
+            <div class="search">
+                <input type="text" placeholder="Search for a city.." id="input"><button id="submit">search</button> </div>
+            <div class="bg">
+            <header class="header">
+                <img src="" alt="" srcset="" id="icon">
+            </header> 
+            <div id="location"><h2>Unable to get location</h2></div>
+            <br>
+            <div class="temp">
+                <div id="centi">No information</div>
+                <div id="farh">No information</div>
+            </div>
+            <br>
+            <div id="desc">null</div>
+            
+            </div>
+        </div>
+      <script src="weather.js" ></script>
+    </body>
+</html>

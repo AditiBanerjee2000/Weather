@@ -1,0 +1,99 @@
+body{
+margin: 0px;
+background-image: url(Lx0q.gif);
+background-size: 100%;
+background-color: lightskyblue;
+box-sizing: border-box;
+}
+
+.container{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+box-sizing: border-box;
+}
+
+.bg{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 215px;
+    width: 70vh;
+    height: 70vh;
+    box-shadow: 5px 0.5px 20px 1px black, -5px -0.5px 20px 0px black,inset 5px 0.5px 17px 4px rgb(169, 169, 169,0.8),inset 5px -0.5px 17px 4px black;
+}
+
+.header{
+    margin-bottom: 0px;
+    margin-top: 5vh;
+    height: 20vh;
+}
+
+#location{
+    color: blanchedalmond;
+    font-family: 'Roboto Slab',serif;
+    font-size: 3vw;
+    margin-top: 3.5vh;
+}
+
+#icon{
+    height: 30vh;
+}
+
+#desc{
+    color: antiquewhite;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5vw;
+}
+
+.temp{
+    font-family: 'Sen', sans-serif;
+    font-size: 1.5vw;
+    color: antiquewhite
+}
+
+#sunrise{
+    float: left;
+    margin-left: 3vh;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5vw;
+    color: rgb(5, 5, 82);
+
+}
+#sunset{
+    float: right;
+    margin-right: 3vh;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5vw;
+    color: rgb(5, 5, 82);
+}
+
+.bg:hover{
+    width: 80vh;
+    height: 80vh;
+    border-radius: 240px;
+}
+
+h2{
+    font-size: 2.5vw;
+}
+.search{
+    margin-bottom: 5vh;
+}
+#input{
+    padding: 1vh;
+    border-radius: 15px;
+    border: black 3px double;
+    box-shadow: inset 2px 2px 2px black,inset -2px -2px 2px darkgray;
+}
+#submit{
+    padding: 1vh;
+    border-radius: 15px;
+    font-size: 12px;
+    box-shadow: inset 2px 2px 2px darkgray;
+}
+
+#input:focus{
+    padding: 1.5vh;
+}
