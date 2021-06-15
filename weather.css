@@ -1,8 +1,11 @@
 body{
 margin: 0px;
-background-image: url(Lx0q.gif);
-background-size: 100%;
-background-color: lightskyblue;
+background: url(Lx0q.gif) no-repeat center center fixed;
+background-size: cover;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-color:lightskyblue;
 box-sizing: border-box;
 }
 
@@ -27,7 +30,8 @@ box-sizing: border-box;
 .header{
     margin-bottom: 0px;
     margin-top: 5vh;
-    height: 20vh;
+    margin-bottom: 2vh;
+
 }
 
 #location{
@@ -76,7 +80,9 @@ box-sizing: border-box;
 }
 
 h2{
-    font-size: 2.5vw;
+    font-size: 2.4vw;
+    margin-top: 10vh;
+    
 }
 .search{
     margin-bottom: 5vh;
@@ -96,4 +102,39 @@ h2{
 
 #input:focus{
     padding: 1.5vh;
+}
+@media (max-width:640px){
+    .bg{
+        max-width: 140%;
+        max-height: 40%;
+    }
+    #icon{
+        max-height: 12vh;
+    }
+    #location{
+        margin-top: 1vh;
+        font-size: 110%;
+    }
+    #desc
+    {
+       font-size: 100%;
+    }
+    .temp{
+        font-size: 90%;
+    }
+    #sunrise{
+        font-size: 2.1vw;
+        margin-left: 2px;
+    }
+    #sunset{
+        font-size: 2.1vw;
+        margin-right: 2px;
+    }
+    #submit{
+        margin-left: 63px;
+        margin-top: 4px;
+    }
+    #input{
+        padding: 0.5vh;
+    }
 }
