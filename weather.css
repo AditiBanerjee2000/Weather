@@ -103,7 +103,7 @@ h2{
 #input:focus{
     padding: 1.5vh;
 }
-@media (max-width:640px){
+@media (min-height:640px){
     .bg{
         max-width: 140%;
         max-height: 40%;
